@@ -1,0 +1,36 @@
+div.box {
+  width: 30vh;
+  height: max-content;
+  text-align: center;
+  background: #cbded7;
+  border-radius: 15px;
+  margin: auto;
+  // margin-top: 20px;
+  // margin-bottom: 20px;
+}
+
+div.box-header {
+  background: #77ac6e;
+  border-radius: 15px 15px 0px 0px;
+}
+
+div.box-content {
+  height: 5vh;
+}
+
+p.txt-header {
+  font-family: "Itim" cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  color: #426236;
+}
+
+p.txt-content {
+  font-family: "Itim" cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #426236;
+}

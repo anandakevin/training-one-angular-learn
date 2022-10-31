@@ -1,0 +1,6 @@
+<h2>{{ title }}</h2>
+<p>{{ kontakList.length }} contacts</p>
+
+<div class="container">
+  <app-child *ngFor="let kontak of kontakList" [kontak]="kontak"></app-child>
+</div>
